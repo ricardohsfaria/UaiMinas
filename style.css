@@ -1,0 +1,183 @@
+body {
+    background-color: white;
+}
+
+header {
+	background: white;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 70px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	color: #000000;
+    font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+    color: #facf19;
+    transition: 0.2s;
+}
+
+.showcase {
+    position: relative;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.texto__video {
+    width: 30%;
+    margin-left: 40px;
+}
+
+.texto__video h2 {
+    font-size: 48px;
+    font-family: 'Monteserrat', sans-serif;
+    font-weight: 600;
+}
+
+.texto__video h3 {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.texto__video {
+    color: white;
+    position: relative;
+}
+
+/* CSS main */
+
+.caixa__section {
+    margin: 2em 3em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.titulo__sobre {
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-bottom: 1em;
+}
+
+.texto__sobre {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1em 0;
+    line-height: 1.4;
+}
+
+.caixa__imagem--rotulo {
+    position: relative;
+    display: flex;
+    align-items: center;}
+
+.imagem__rotulo {
+    margin: auto;
+}
+
+.caixa__slide {
+    width: 100vw;
+    height: auto;
+    background-color: #facf19;
+    display: flex;
+    align-items: center;
+    
+}
+
+.imagem__fazenda {
+    display: inline-block;
+    margin: 40px;
+    box-sizing: border-box;
+    border: 10px white solid;
+    border-radius: 15px;
+}
+
+.caixa__texto--slide {
+    text-align: center;
+    padding: 0 10%;
+}
+
+.texto__slide {
+    display: inline;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+}
+
+.layout {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.layout h2 {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-bottom: 1em;
+}
+
+.mapa {
+    text-align: center;
+    padding: 2em 0 4em 0;
+    margin-top: 2em;
+    background: #facf19;
+}
+
+.mapa h2 {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    padding-bottom: 1em;
+}
+
+footer {
+    text-align: center;
+    line-height: 1.4;
+    padding: 2em 0;
+}
