@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #facf19;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+header {
+	background: white;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 70px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	color: #000000;
+    font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+    color: #facf19;
+    transition: 0.2s;
+}
+
+.caixa__produtos {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 5px #fff solid;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 3em 0 0 3em;
+}
+
+.caixa__produtos h3 {
+    text-align: center;
+    font-weight: normal;
+}
+
+footer {
+    background: #fff;
+    text-align: center;
+    line-height: 1.4;
+    padding: 2em 0;
+    margin-top: 2em;
+}
